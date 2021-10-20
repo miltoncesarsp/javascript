@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body{
+            background-color: blueviolet;
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) //Ou Number.parseInt ou Numer.parseFloat
+        var n2 = Number(window.prompt('Digite um número: '))
+        var s = n1 + n2
+        window.alert(`A soma de ${n1} e ${n2} é igual a ${s}`)
+
+        // Converter para String String(n) ou N.ToString
+        // ${} pode ser usado pra concatenar
+        // s.lenght pra saber quantas letras tem a String
+        // s.toUpperCase() deixar em letras maiusculas
+        // s.toLowerCase() deixar tudo em minúsculas
+        //toFixed(2) para duas casas decimais
+        //toFixed(2).replace('.',',') pra colocar vírgulas
+        //n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+    </script>
+</body>
+</html> 
+
